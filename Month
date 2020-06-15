@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 10 23:29:47 2020
+
+@author: Rajesh
+"""
+
 month = input("Enter the ful name of any month. Please write the first letter capital:-")
 if month in ("January" or "March" or "May" or "July" or "August" or "October" or "December"):
     print("The month of "+str(month) + " has 31 days")
